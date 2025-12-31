@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DROPNET V2 • VPN Premium</title>
+
+<style>
+:root{
+  --main:#00f0ff;
+  --bg:#0a0e17;
+  --card:#121a2b;
+  --text:#ffffff;
+  --muted:#9aa3b2;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: radial-gradient(circle at top, #16213e, var(--bg));
+  color:var(--text);
+}
+
+.container{
+  max-width:1200px;
+  margin:auto;
+  padding:20px;
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding:90px 20px;
+}
+.hero h1{
+  font-size:52px;
+  color:var(--main);
+  text-shadow:0 0 35px rgba(0,240,255,.6);
+}
+.hero p{
+  max-width:700px;
+  margin:20px auto;
+  font-size:18px;
+  color:var(--muted);
+}
+.hero .buttons{
+  margin-top:30px;
+}
+.btn{
+  display:inline-block;
+  padding:15px 32px;
+  border-radius:35px;
+  font-weight:bold;
+  text-decoration:none;
+  margin:8px;
+}
+.btn.primary{
+  background:linear-gradient(90deg,var(--main),#00b4ff);
+  color:#000;
+  box-shadow:0 0 30px rgba(0,240,255,.6);
+}
+.btn.outline{
+  border:2px solid var(--main);
+  color:var(--main);
+}
+
+/* FEATURES */
+.features{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:25px;
+  margin-top:40px;
+}
+.feature{
+  background:#0f1628;
+  padding:20px;
+  border-radius:18px;
+  text-align:center;
+  border:1px solid rgba(0,240,255,.15);
+}
+.feature h3{
+  color:var(--main);
+  margin-bottom:8px;
+}
+
+/* SECTION TITLE */
+.section-title{
+  text-align:center;
+  margin:90px 0 40px;
+  font-size:36px;
+  color:var(--main);
+}
+
+/* CARDS */
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:35px;
+}
+.card{
+  background:linear-gradient(180deg,#16213e,var(--card));
+  border-radius:25px;
+  padding:25px;
+  box-shadow:0 0 40px rgba(0,0,0,.7);
+}
+.card img{
+  width:100%;
+  border-radius:18px;
+  margin-bottom:20px;
+}
+.card h2{
+  color:var(--main);
+  margin-bottom:10px;
+}
+.card ul{
+  padding-left:20px;
+}
+.card li{
+  margin:6px 0;
+}
+.card .info{
+  margin-top:15px;
+  font-size:14px;
+  color:var(--muted);
+}
+.card .download{
+  text-align:center;
+  margin-top:25px;
+}
+
+/* PRO */
+.pro{
+  border:2px solid var(--main);
+  box-shadow:0 0 50px rgba(0,240,255,.35);
+  position:relative;
+}
+.pro::before{
+  content:"⭐ RECOMENDADO";
+  position:absolute;
+  top:-14px;
+  left:50%;
+  transform:translateX(-50%);
+  background:var(--main);
+  color:#000;
+  padding:6px 18px;
+  border-radius:20px;
+  font-size:13px;
+  font-weight:bold;
+}
+
+/* SUPPORT */
+.support{
+  margin-top:90px;
+  padding:60px 20px;
+  text-align:center;
+  background:linear-gradient(180deg,#0f1628,#0a0e17);
+  border-radius:30px;
+}
+.support h2{
+  color:var(--main);
+  margin-bottom:10px;
+}
+.support p{
+  color:var(--muted);
+  margin-bottom:25px;
+}
+.support a{
+  display:inline-block;
+  padding:15px 30px;
+  border-radius:35px;
+  font-weight:bold;
+  text-decoration:none;
+  margin:8px;
+}
+.whatsapp{
+  background:#25d366;
+  color:#000;
+}
+.telegram{
+  background:#0088cc;
+  color:#fff;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  color:#777;
+  margin:40px 0 20px;
+}
+
+@media(max-width:600px){
+  .hero h1{font-size:38px}
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- HERO -->
+<section class="hero">
+  <h1>DROPNET V2</h1>
+  <p>VPN profissional com tecnologias avançadas para máxima estabilidade, desempenho e segurança em qualquer rede.</p>
+
+  <div class="buttons">
+    <a href="#apps" class="btn primary">Baixar Aplicativo</a>
+    <a href="#suporte" class="btn outline">Suporte Oficial</a>
+  </div>
+
+  <div class="features">
+    <div class="feature">
+      <h3>🔐 Segurança</h3>
+      <p>Criptografia avançada</p>
+    </div>
+    <div class="feature">
+      <h3>⚡ Performance</h3>
+      <p>Conexões rápidas</p>
+    </div>
+    <div class="feature">
+      <h3>🌍 Tecnologias</h3>
+      <p>Compatível com todas redes</p>
+    </div>
+    <div class="feature">
+      <h3>📱 Android</h3>
+      <p>App otimizado</p>
+    </div>
+  </div>
+</section>
+
+<!-- APPS -->
+<h2 id="apps" class="section-title">Escolha sua Versão</h2>
+
+<div class="cards">
+
+<!-- LITE -->
+<div class="card">
+  <img src="lite.png">
+  <h2>DROPNET V2 LITE</h2>
+  <p>Simples, leve e eficiente</p>
+
+  <ul>
+    <li>SSH DIRECT</li>
+    <li>SSH PROXY</li>
+    <li>SSL DIRECT</li>
+    <li>SSL PROXY</li>
+  </ul>
+
+  <div class="info">Versão 5.0.0 • 4,80 MB</div>
+
+  <div class="download">
+    <a class="btn primary" target="_blank"
+       href="https://www.mediafire.com/file/ippzbmwbb2gzmd6/DROPNET.5.0.0_lite.apk/file">
+       Baixar LITE
+    </a>
+  </div>
+</div>
+
+<!-- PRO -->
+<div class="card pro">
+  <img src="pro.png">
+  <h2>DROPNET V2 PRO</h2>
+  <p>Experiência completa e avançada</p>
+
+  <ul>
+    <li>SSH / SSL / DNS</li>
+    <li>OVPN (Proxy / SSL)</li>
+    <li>XRAY / V2RAY</li>
+    <li>HYSTERIA</li>
+  </ul>
+
+  <div class="info">Versão 5.0.0 • 58,69 MB</div>
+
+  <div class="download">
+    <a class="btn primary" target="_blank"
+       href="https://www.mediafire.com/file/9x2qovf5zsyxgct/DROPNET_V2_PRO.apk/file">
+       Baixar PRO
+    </a>
+  </div>
+</div>
+
+</div>
+
+<!-- SUPPORT -->
+<section id="suporte" class="support">
+  <h2>Suporte Oficial DROPNET V2</h2>
+  <p>Atendimento rápido para ativação, suporte técnico e informações.</p>
+
+  <a class="whatsapp" target="_blank"
+     href="https://wa.me/5591993276833?text=Ol%C3%A1%2C%20Gostaria%20de%20Comprar%20Meu%20Acesso!VPN%20">
+     📞 WhatsApp VPN
+  </a>
+
+  <a class="telegram" target="_blank"
+     href="https://t.me/BIEL_SSH">
+     📲 Telegram
+  </a>
+</section>
+
+<footer>
+  © 2025 DROPNET V2 • VPN Premium
+</footer>
+
+</div>
+</body>
+</html>
